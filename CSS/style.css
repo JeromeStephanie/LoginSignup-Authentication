@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Clicker+Script&family=Crimson+Text&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;600&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 20px;
+}
+
+/* logo design */
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ff03f5;
+  border-radius: 50%;
+  border: 3px solid #ff03f5;
+}
+.c1 {
+  position: relative;
+  right: 20px;
+  border: 3px solid white;
+}
+
+.BrandName {
+  color: white;
+  margin-left: -15px;
+  /* font-family: "Lobster", cursive; */
+  font-family: "Poppins", sans-serif;
+}
+
+.logo,
+.logoHolder {
+  display: flex;
+  align-items: center;
+}
+
+/* logo design end */
+
+/* colors: #9f24be */
+
+/* Banner styling */
+.banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.ban1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.ban2 {
+  font-size: 25px;
+  line-height: 27px;
+  margin: 20px 0;
+}
+/* Banner styling ends */
+
+/* Get started button */
+.btn1 {
+  padding-top: 20px;
+}
+
+.btn1 a {
+  width: 80%;
+  background-color: #ff03f5;
+  color: black;
+  border: none;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.btn1 a:hover {
+  transition: 0.5s ease-in;
+  background-color: white;
+  color: #ff03f5;
+}
+
+button {
+  width: 50%;
+  background-color: #ff03f5;
+  border: none;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.5s ease-in;
+  background-color: white;
+  color: #ff03f5;
+}
+/* Banner styles end */
+
+/* Welcome Section */
+
+.flexing {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.col {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+
+.text {
+  line-height: 22px;
+}
+
+.welcome h2 {
+  font-size: 1.5rem;
+  font-family: "Lobster", cursive;
+}
+
+.aside {
+  text-align: right;
+}
+
+div .img {
+  width: 50%;
+}
+
+hr {
+  width: 50%;
+  color: black;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.h3 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.profilefile img {
+  clip-path: circle();
+}
+
+.card_Box {
+  padding: 15px 20px;
+  border: 0.5px solid #ccc;
+  box-shadow: 1px 3px 3px black;
+}
+
+.main-con {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  line-height: 20px;
+}
+
+.main-con h2 {
+  margin-bottom: 20px;
+}
+
+.main-con .flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-con .flex .column {
+  flex: 0 0 33%;
+  max-width: 33%;
+  padding: 30px;
+}
+
+.main-con .flex .column .content {
+  border: 1px solid rgb(20, 15, 15);
+  box-shadow: 1px 1px 4px black;
+  padding: 30px;
+  text-align: left;
+  line-height: 22px;
+}
+
+.main-con .flex .column .content h3 {
+  margin-top: 10px;
+}
+
+.main-con .collapsible {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.space-between {
+  margin-bottom: 20px;
+}
+
+.bottom-space {
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  border: 2px solid purple;
+  width: 100%;
+  background-color: transparent;
+  color: purple;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main-con a {
+  font-size: 20px;
+  text-decoration: none;
+  color: purple;
+  font-weight: 600;
+}
+
+.main-con a:hover {
+  color: #ff03f5;
+  transition: 0.5s ease-in;
+}
+
+.main-con .line {
+  border-bottom: 1px solid black;
+  width: 70%;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: 15%;
+}
+
+.main-con .heading {
+  margin-top: 30px;
+}
+
+.main-con .flex-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-con .flex-two .col {
+  flex: 0 0 33%;
+  max-width: 33%;
+  padding: 30px;
+}
+
+.main-con .flex-two .content-two {
+  border: 1px solid white;
+  box-shadow: 1px 1px 4px black;
+  text-align: left;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer {
+  padding-top: 200px;
+  padding-left: 100px;
+  font-family: "Crimson Text", serif;
+}
+
+.footer .content-three {
+  display: inline-block;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.main-con .flex-two .col .content-two .text {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  main {
+    padding: 20px;
+    height: 120vh;
+  }
+
+  .logo {
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+
+  .btn1 {
+    margin-bottom: 100px;
+  }
+
+  .btn1 a {
+    width: 80%;
+  }
+
+  .banner {
+    padding-top: 200px;
+    text-align: left;
+    padding-bottom: 100px;
+    width: 80%;
+  }
+
+  .main-con .flex-two .col,
+  .main-con .flex .column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aside {
+    padding-top: 22px;
+  }
+
+  .aside,
+  .card_Box,
+  .main-con .flex .column .content,
+  .main-con .flex-two .content-two {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-con .flex .column,
+  .main-con .flex-two .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (width <= 480px) {
+ 
+  .ban1,
+  .ban2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .footer {
+    padding-top: 150px;
+    padding-left: 30px
+  }
+}

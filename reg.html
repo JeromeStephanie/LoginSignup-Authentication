@@ -1,0 +1,60 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="CSS/reg.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap"
+    />
+  </head>
+
+  <body>
+    <section class="main-con">
+      <form class="contents" action="index.html" method="post" autocomplete="on">
+        <div class="logo">
+          <div class="logoHolder">
+            <div class="circle"></div>
+            <div class="circle c1"></div>
+          </div>
+          <div class="BrandName">WEDDING WHISPERS</div>
+        </div>
+        <nav>
+          <div class="nav">
+            <div class="nav-item heading"> Sign Up</div>
+            <div class="nav-item align">
+              <a href="login.html" class="sign">Already have an account?<br/>Login</a>
+            </div>
+          </div>
+        </nav>
+        <div class="flexMe">
+          <div class="flex1">
+            <input type="text" placeholder="First name" required/>
+          </div>
+          <div class="flex1">
+            <input type="text" placeholder="Last name"  required/>
+          </div>
+        </div>
+        <div class="space"><input type="text" placeholder="Username" id="username" oninput="usernameValidation()"  required/>
+        <span id="username-error"></span></div>
+
+        <div><input type="email" placeholder="Email address" id="email" oninput="emailValidation()"  required/>
+        <span id="email-error"></span></div>
+        <div class="space"><input type="tel" placeholder="Tel."   required/></div>
+        <div class="space"><input type="password" placeholder="Password" id="password" oninput="passwordValidation()"  required/>
+        <span id="password-error"></span></div>
+        <div class="space confirm">
+          <input type="password" placeholder="Confirm Password" id="confirmPass" oninput="confirmPassword()"  required/>
+          <span id="passwordError"></span>
+        </div>
+        <div><button type="submit" id="btn" disabled>Sign Up</button></div>
+      </form>
+    </section>
+    <section class="links">
+      <div class="space"><a href="index.html" class="sign">WEDDING WHISPERS</a></div>
+    </section>
+    <script src="JavaScript/reg.js"></script>
+  </body>
+</html>

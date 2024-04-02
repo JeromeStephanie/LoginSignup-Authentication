@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Page</title>
+        <link rel="stylesheet" href="CSS/LoginStyle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap">
+    </head>
+    <body>
+        <section class="main-con">
+            <form class="contents" action="index.html" method="post" autocomplete="on">
+                <div class="logo">
+                    <div class="logoHolder">
+                        <div class="circle"></div>
+                        <div class="circle c1"></div>
+                    </div>
+                    <div class="BrandName">WEDDING WHISPERS</div>
+                </div>
+                <nav>
+                    <div class="nav">
+                        <div class="nav-item heading">Login</div>
+                        <div class="nav-item align"><a href="reg.html" class="sign">Sign Up</a></div>
+                    </div>
+                </nav>
+                <div><input type="text" placeholder="Email address" id="email" oninput="emailVal()" required></div>
+                <span id="email-error"></span>
+                <div class="space"><input type="password" placeholder="Password"  id="password" oninput="pasVal()" required>
+                <span class="error" id="password-error"></span></div>
+                <div><button type="submit" id="btn" disabled>Log in</button></div>
+            </form>
+        </section>
+        <section class="links">
+            <div class="space"><a href="reg.html" class="sign acct">Need an account?</a></div>
+            <div><a href="index.html" class="sign">WEDDING WHISPERS</a></div>
+        </section>
+        <script src="JavaScript/login.js"></script>
+    </body>
+</html>

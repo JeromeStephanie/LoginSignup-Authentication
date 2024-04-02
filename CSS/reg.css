@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 229, 191);
+}
+
+.main-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+/* logo design */
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ff03f5;
+  border-radius: 50%;
+  border: 3px solid #ff03f5;
+}
+
+.c1 {
+  position: relative;
+  right: 20px;
+  border: 3px solid white;
+}
+
+.BrandName {
+  color: white;
+  margin-left: -15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo,
+.logoHolder {
+  display: flex;
+  align-items: center;
+}
+
+.contents {
+  border: 1px solid white;
+  background-color: rgba(255, 3, 245, 0.45);
+  padding: 70px;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.nav .align {
+  text-align: right;
+}
+
+.sign {
+  font-family: "Lobster", cursive;
+  text-decoration: none;
+  color: rgb(98, 40, 148);
+}
+
+.links {
+  text-align: center;
+}
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.062);
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+}
+
+.space {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.confirm {
+    margin-bottom: 30px;
+}
+
+.acct {
+  color: black;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  background-color: #ff03f5;
+  border: hidden;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.flexMe {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex1 {
+  flex: 0 0 50%;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(250, 229, 191);
+  }
+  .flex1 {
+    flex: 0 0 100%;
+  }
+  .contents {
+    background-color: rgba(255, 3, 245, 0.45);
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 20px;
+  }
+  .main-con {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1px) {
+  body {
+    background-color: rgb(250, 229, 191);
+  }
+  .flex1 {
+    flex: 0 0 100%;
+  }
+  .contents {
+    background-color: rgba(255, 3, 245, 0.45);
+    border: none;
+    box-shadow: none;
+    width: 100%;
+  }
+  .main-con {
+    padding: 0;
+  }
+}
